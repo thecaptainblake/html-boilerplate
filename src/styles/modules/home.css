@@ -1,0 +1,32 @@
+.home {
+  height: 100vh;
+  text-align: center;
+  background-image: url('../../images/bg.jpg');
+
+  /*simple parallax effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Flexbox -- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.home__title {
+  margin-bottom: 1rem;
+  font-size: var(--extraLargeFontSize);
+  color: var(--white);
+  /* https://developer.mozilla.org/es/docs/Web/CSS/Referencia_CSS/mix-blend-mode */
+  mix-blend-mode: soft-light;
+}
+
+.home__description {
+  margin: 0 50px;
+  font-size: var(--largeFontSize);
+  color: var(--white);
+  mix-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.3);
+}

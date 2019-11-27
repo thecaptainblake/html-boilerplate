@@ -1,0 +1,8 @@
+/*base modules*/
+@import url('../styles/base/normalize.css');
+@import url('../styles/base/config.local.css');
+@import url('../styles/base/fonts.css');
+@import url('../styles/base/variables.css');
+
+/* modules import main file*/
+@import url('../styles/modules/main.css');

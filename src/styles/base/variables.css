@@ -1,0 +1,34 @@
+:root {
+  /*--COLORS--*/
+
+  --white: #FFFFFF;
+  --grayLight: #F1F1F2;
+  --grayCharcoal: #AAA8AC;
+  --gray: #666666;
+  --grayDark: #343A40;
+  --black: #000000;
+
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --success: #28a745;
+
+  --primary: #00A9B9;
+  --primaryDark: #344B4F;
+  --secondary: #D7E6E6;
+
+  /*--SHADOWS--*/
+
+  --shadow1: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+  --shadow2: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px;
+  --shadow3: rgba(0, 0, 0, 0.2) 0px 1px 8px 0px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 3px 3px -2px;
+
+  /*--FONT SIZES--*/
+
+  --defaultFontSize: 1rem;
+  --smallFontSize: 0.8rem;
+  --largeFontSize: 1.5rem;
+  --extraLargeFontSize: 4rem;
+
+
+}
